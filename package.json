@@ -1,0 +1,19 @@
+{
+  "name": "astroids",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appzic/astroids.git"
+  },
+  "author": "Yasitha Nadeeshan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appzic/astroids/issues"
+  },
+  "homepage": "https://github.com/appzic/astroids#readme"
+}
