@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "npm run clean && tsc",
-    "clean": "rimraf ./dist astroids-*.tgz"
+    "clean": "rimraf ./dist astroids-*.tgz",
+    "showexample": "sh example.sh"
   },
   "repository": {
     "type": "git",

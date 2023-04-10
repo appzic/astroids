@@ -1,0 +1,20 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "concurrently \"astroids --watch\" \"astro dev\"",
+    "start": "npm run dev",
+    "build": "astroids && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "astroids": "astroids"
+  },
+  "dependencies": {
+    "astro": "^2.2.1"
+  },
+  "devDependencies": {
+    "astroids": "file:../astroids-0.0.0.tgz",
+    "concurrently": "^7.6.0"
+  }
+}
